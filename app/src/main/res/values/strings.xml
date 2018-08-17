@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="textMain">Start App</string>
+    <string name="textWelcome"> Welcome to my App</string>
+</resources>
