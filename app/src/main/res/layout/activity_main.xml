@@ -9,11 +9,51 @@
     android:gravity="bottom"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/txtMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab2 - Estebes"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
     <Button
-        android:id="@+id/btnMain"
+        android:id="@+id/btnLogin"
         android:textSize="16dp"
         android:background="@color/primaryButton"
-        android:text="@string/textMain"
+        android:text="@string/login"
+        android:textColor="@color/textPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnInvited"
+        android:textSize="16dp"
+        android:background="@color/primaryButton"
+        android:text="@string/invited"
+        android:textColor="@color/textPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:textSize="16dp"
+        android:background="@color/primaryButton"
+        android:text="@string/settings"
         android:textColor="@color/textPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
